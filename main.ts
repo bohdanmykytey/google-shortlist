@@ -3,8 +3,9 @@ import { number } from "prop-types";
 
 export class Foo   {
     constructor(public input: any) {
-        interface valueStream{(input: any)   {
+        interface valueStream   {
             Observable;
+            input: any;
             if(input == number)   {
                 return true
             }
