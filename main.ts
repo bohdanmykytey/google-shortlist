@@ -1,27 +1,24 @@
-import { Observable } from "rxjs";
-import { number } from "prop-types";
+import  Observable  from "rxjs";
+import  number  from "prop-types";
 
-export class Foo   {
-    constructor(public input: any) {
-        interface valueStream   {
+class BooleanConstructor   {
+    public valueStream: any;
+    constructor() {
+            this.valueStream = {
+            if (input: any)   {
+                return Boolean;
+            }
+        }
+        
+        let isNumber = () => {
             Observable;
-            input: any;
-            if(input == number)   {
-                return true
+            if(this.valueStream == number) {
+                return true;
             }
             return false
         }
-
+        isNumber()
     }
+}
 
-    
-        const isNumber = () => {
-             Observable;
-            if(valueStream) {
-                return true
-            }
-            return false;    
-        }
-    }
-    
-isNumber(10)
+export default BooleanConstructor;
